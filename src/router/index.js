@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
-import EnergyCommunityTable from "@/components/Table.vue";
+import Table from "@/components/Table.vue";
 import Kullanicilar from "@/views/Kullanicilar.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: EnergyCommunityTable,
+    component: Table,
   },
   {
     path: "/kullanicilar",
