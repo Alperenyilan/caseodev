@@ -160,14 +160,6 @@ const search = ref("");
 const selectedRows = ref([]);
 const expandedRows = ref([]);
 
-// const form = ref({
-//   id: null,
-//   name: "",
-//   location: "",
-//   energyType: "",
-//   startDate: "",
-// });
-
 const addSelectedUsers = () => {
   const selectedUsers = selectedRows.value.map((id) =>
     filteredCommunities.value.find((item) => item.id === id)
